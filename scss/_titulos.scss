@@ -1,0 +1,8 @@
+.texts {
+    letter-spacing: 2px;
+    transition: text-shadow 200ms;
+    &:hover {
+        text-shadow: red -2px 0,
+                        cyan 5px 0;
+    }
+}
