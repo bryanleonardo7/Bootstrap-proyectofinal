@@ -1,7 +1,6 @@
 /** import de mi SCSS**/
 /**colores para mi pagina**/
 /*HEADER MAIN */
-/*FOOTER MAIN */
 header {
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); }
@@ -19,19 +18,64 @@ header {
     box-shadow: 0 0 10px gold inset, 0 0 10px 4px gold;
     border-radius: 10px; }
 
+/*maps*/
+.cardcolor {
+  background-color: #837745;
+  background-image: linear-gradient(112deg, #837745 46%, #f7bf32 46%);
+  opacity: 0.8; }
+
+/* todos los h1 modifique*/
 .texts {
   letter-spacing: 2px;
   transition: text-shadow 200ms; }
   .texts:hover {
     text-shadow: red -2px 0, cyan 5px 0; }
 
+/* FOOTER MAIN*/
+/*mixins*/
+/*extend de footer*/
+.footer-texto, footer a {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif; }
+
 footer {
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); }
   footer a {
-    color: black; }
+    font-size: larger; }
   footer a.nav-link {
     color: black; }
+    footer a.nav-link:hover {
+      color: white; }
   footer p {
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: cursive;
+    margin-top: 20px; }
+  footer .fa-facebook {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff; }
+    footer .fa-facebook:hover {
+      color: #3b5998; }
+  footer .fa-twitter {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff; }
+    footer .fa-twitter:hover {
+      color: #00acee; }
+  footer .fa-instagram {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff; }
+    footer .fa-instagram:hover {
+      color: #8a3ab9; }

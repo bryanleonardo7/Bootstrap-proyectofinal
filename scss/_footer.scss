@@ -1,16 +1,50 @@
+/* FOOTER MAIN*/
+/*mixins*/
+@mixin redes($hover) {
+    font-size: 40px; 
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    &:hover{
+        color: $hover;
+    }
+}
+
+/*extend de footer*/
+.footer-texto {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 footer {
     background-color: $bgheader;
     background-image: $bg-image;
     a {
-        color:black;
+        @extend .footer-texto;
+        font-size: larger;
     }
     a.nav-link {
         color: black;
+        &:hover {
+            color: $bgfootera;
+        }
     }
     p {
         font-size: 15px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: cursive;
+        margin-top: 20px;
     }
-
+    .fa-facebook {
+    @include redes ($fb);
+    }
+    .fa-twitter {
+    @include redes ($tw);
+    }
+    .fa-instagram {
+    @include redes ($ig);
+    }
+    
 }
-
