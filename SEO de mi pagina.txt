@@ -1,0 +1,22 @@
+
+
+-Ajuste mis imagenes: con la aplicacion https://tinypng.com/.
+-Renombré imágenes para adaptarlas a SEO.
+-Complete algunas ALT en mi pagina INDEX.
+
+
+-En INDEX agregue las siguientes metas:
+ <head>
+  <meta
+      name="description"
+      content="AMD por su abreviatura de Advanced Micro Devices es una empresa de semiconductores que se dedica a la fabricación de microprocesadores o procesadores gráficos entre otros, para ámbito doméstico o empresarial. "
+    />
+    <meta
+      name="keywords"
+      content="amd , microchips, amd radeon software,amd hardware, amd imagenes, florida  "
+    />
+   </head>
+   EJEMPLO.
+
+-Y los demas paginas tambien.
+
